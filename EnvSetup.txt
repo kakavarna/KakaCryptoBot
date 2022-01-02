@@ -1,0 +1,19 @@
+1. clone the repository
+2. in terminal, navigate to the cloned repository
+3. run: 
+	pip install mariadb
+	pip install discord
+	pip install requests
+4. add the following to an empty config.jsoN AND fill in the empty quotes
+
+{
+  "cmcKey": "",  --this is the coinmarkcap key
+  "dbString": "host='',port=3306,user='',password='',database=''",
+  "dbUser": "",
+  "dbPassword": "",
+  "prefix": "$",
+  "textChannel": "",
+  "token": "" --this is the discord api token
+}
+
+5. run the queries to create the tables
